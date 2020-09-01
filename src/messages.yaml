@@ -1,0 +1,81 @@
+en:
+  app:
+    name: Monopoly Bank
+  general:
+    back: Back
+    join: Join
+    create: Create
+    yourName: Your Name
+    lobbyId: Lobby ID
+    status:
+      preparing: Preparing
+      unconnected: Not Connected
+      connecting: Connecting
+      connected: Connected
+      notJoined: Not Part of Any Match
+      joining: Joining
+      joined: Joined
+    goToMatch: Return To Match
+    backToMainMenu: Back To Main Menu
+    removeFromCurrentGameWarning: This will remove you from your current game!
+  mainMenu:
+    partOfAMatch: Your are part of a match.
+    returnToMatch: Return To Match
+  preparing:
+    instructions: Send your friends the ID below or let them scan the qr code so they can join this match.
+  game:
+    balanceValue: "${balance, number, integer}"
+    moneyAmount: Amount
+    waitingForPlayers: Waiting for other players to join...
+    begin: Begin
+    bank: Bank
+    overview: Overview
+    freeParking: Free Parking
+    history: History
+    takeFromBank: Take From Bank
+    payToBank: Pay To Bank
+    takeFreeParking: Take From Free Parking
+    putFreeParking: Put Under Free Parking
+    pay: Pay
+    take: Take
+de:
+  app:
+    name: Monopoly Bank
+  general:
+    back: Zurück
+    join: Beitreten
+    create: Erstellen
+    yourName: Dein Name
+    lobbyId: Lobby ID
+    status:
+      preparing: Vorbereiten
+      unconnected: Nicht Verbunden
+      connecting: Verbinde
+      connected: Verbunden
+      notJoined: Keinem Spiel beigetreten
+      joining: Trete Bei
+      joined: Beigetreten
+    goToMatch: Zurück zum Spiel
+    backToMainMenu: Zurück zum Hauptmenü
+    removeFromCurrentGameWarning: Du wirst aus deinem aktuellen Spiel entfernt!
+  mainMenu:
+    partOfAMatch: Du bist noch Teil eines Spiels.
+    returnToMatch: Zurück zum Spiel
+  preparing:
+    instructions: Sende deinen Freunden den unten stehenden Link oder lasse sie den QR-Code scannen um beizutreten.
+    inviteText: "Einladung zum Match {id}."
+  game:
+    balanceValue: "${balance, number, integer}"
+    moneyAmount: Betrag
+    waitingForPlayers: Auf weitere Spieler warten...
+    begin: Starten
+    bank: Bank
+    overview: Übersicht
+    freeParking: Frei Parken
+    history: Verlauf
+    takeFromBank: Aus der Bank nehmen
+    payToBank: An die Bank zahlen
+    takeFreeParking: Geld unter frei Parken nehmen
+    putFreeParking: Geld unter frei Parken legen
+    pay: Zahlen
+    take: Nehmen

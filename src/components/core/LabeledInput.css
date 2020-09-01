@@ -1,0 +1,32 @@
+.label {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: stretch;
+  position: relative;
+  margin: 20px 0;
+  background-color: var(--theme-control-color);
+  border-radius: 6px;
+  border: solid 2px var(--theme-control-color);
+}
+
+.label:focus-within {
+  border-color: var(--theme-focus-color);
+  color: var(--theme-text-color-highlight)
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.input {
+  flex: 1 1 auto;
+  display: block;
+  width: auto;
+  padding: 10px;
+  background: none;
+}

@@ -1,0 +1,74 @@
+body {
+  --theme-background-color: #ffffff;
+  /* --theme-background-color: #222222; */
+  --theme-control-color: #eeeeee;
+  /* --theme-control-color: #333333; */
+  --theme-focus-color: #aaaaaa;
+  /* --theme-focus-color: #666666; */
+  --theme-global-text-color: #555555;
+  /* --theme-global-text-color: #ffffff99; */
+  --theme-global-text-color-highlight: #000000;
+  /* --theme-global-text-color-highlight: #ffffff; */
+  --theme-text-color: var(--theme-global-text-color);
+  --theme-text-color-highlight: var(--theme-global-text-color-highlight);
+
+  font-family: 'Open Sans', Roboto, Arial, sans-serif;
+  font-size: 14px;
+  background-color: var(--theme-background-color);
+  color: var(--theme-text-color);
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+code, input {
+  font-family: 'Source Code Pro', Consolas, monospace;
+}
+
+a {
+  text-decoration: initial;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--theme-text-color-highlight);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.text--highlight, h1, h2, h3, h4, h5, h6, code, input {
+  color: var(--theme-text-color-highlight);
+}
+
+:global(.text--warning) {
+  color: #e6a939;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  font-size: inherit;
+  text-align: left;
+  text-align-last: left;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+}
+
+.main {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 24px;
+}

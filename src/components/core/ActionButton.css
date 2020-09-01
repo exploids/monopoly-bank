@@ -1,0 +1,19 @@
+.button {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: none;
+  padding: 6px 10px;
+  min-height: 36px;
+  color: inherit;
+  font: inherit;
+  color: var(--theme-background-color);
+  background-color: var(--theme-text-color);
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.button:hover {
+  background-color: var(--theme-text-color-highlight);
+}

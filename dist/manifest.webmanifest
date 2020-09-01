@@ -1,0 +1,8 @@
+{
+  "short_name": "Monopoly Bank",
+  "name": "Monopoly Bank",
+  "description": "Monopoly Bank",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/"
+}

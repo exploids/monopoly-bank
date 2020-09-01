@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  background-color: var(--theme-control-color);
+  border-radius: 6px;
+  padding: 12px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.name {
+  flex: 1 1 auto;
+}
+
+.balance {
+  flex: 0 0 auto;
+  color: #000000;
+}

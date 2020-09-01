@@ -1,0 +1,18 @@
+.display {
+  background-color: var(--theme-control-color);
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.balance {
+  font-size: 3em;
+  font-weight: 300;
+  color: var(--theme-text-color-highlight);
+  text-align: center;
+}
